@@ -1,0 +1,6 @@
+Page {
+  background: #ffffff;
+}
+view.body {
+  padding: 40rpx 30rpx;
+}

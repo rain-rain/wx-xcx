@@ -1,0 +1,10 @@
+{
+  "name": "wechat-demo",
+  "scripts": {
+    "start": "node ./mock-server/app.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}

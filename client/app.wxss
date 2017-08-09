@@ -1,0 +1,32 @@
+/* components */
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+/* item */
+.item-list{
+	background: #fff;
+}
+
+.item-list .item{
+	padding: 20rpx 30rpx 20rpx 0;
+	font-size: 30rpx;
+	overflow: hidden;
+	margin-left: 20rpx;
+}
+
+.item-list .item:not(:last-child){
+	border-bottom: 1rpx solid #E5E5E5;
+}
+
+.wx-h2{
+	color: #949496;
+	margin: 46rpx 0 32rpx 40rpx;
+	font-size: 26rpx;
+}
